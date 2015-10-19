@@ -1,0 +1,162 @@
+{
+    "Arkansas": [
+        {
+            "url": "http://www.iasishealthcare.com/app/hope.html ",
+            "er": "",
+            "image": "hope",
+            "name": "Wadley Regional Medical Center at Hope",
+            "info": "2001 South Main Street\nHope, AR 71801\n(870) 722-3800"
+        }
+    ],
+    "Utah": [
+        {
+            "url": "http://www.iasishealthcare.com/app/dhmc.html",
+            "checkin": "https://utah-iasis.inquicker.com/facility/davis-hospital-and-medical-center",
+            "er": "https://waittimes.iasishealthcare.com/MEDHOST/DHM/EdisKpiRssFeedGenerator.aspx",
+            "image": "dhmc",
+            "name": "Davis Hospital and Medical Center",
+            "info": "1600 West Antelope Drive\nLayton, UT 84041\n(801) 807-1000"
+        },
+        {
+            "url": "http://www.iasishealthcare.com/app/weber.html",
+            "checkin": "https://utah-iasis.inquicker.com/facility/davis-hospital-weber-campus",
+            "er": "https://waittimes.iasishealthcare.com/MEDHOST/DHM_roy/EdisKpiRssFeedGenerator.aspx",
+            "image": "weber",
+            "name": "Davis Hospital - Weber Campus",
+            "info": "3451 West 5600 South \nRoy, UT 84067 \n(801) 896-5600"
+        },
+        {
+            "url": "http://www.iasishealthcare.com/app/jvmc.html",
+            "checkin": "https://iasis.inquicker.com/facility/jordan-valley-medical-center",
+            "er": "https://waittimes.iasishealthcare.com/MEDHOST/JVH/EdisKpiRssFeedGenerator.aspx",
+            "image": "jvmc",
+            "name": "Jordan Valley Medical Center",
+            "info": "3580 West 9000 South\nWest Jordan, Utah 84088\n(801) 561-8888"
+        },
+        {
+            "displayName": "JVMC, West Valley Campus",
+            "url": "http://www.iasishealthcare.com/app/west.html",
+            "checkin": "https://utah-iasis.inquicker.com/facility/pioneer-valley-hospital",
+            "er": "https://waittimes.iasishealthcare.com/MEDHOST/PVH/EdisKpiRssFeedGenerator.aspx",
+            "image": "west",
+            "name": "Jordan Valley Medical Center, West Valley Campus",
+            "info": "3336 South 4155 West\nWest Valley City, Utah 84120\n(801) 964-3100"
+        },
+        {
+            "url": "http://www.iasishealthcare.com/app/mpmc.html",
+            "er": "https://waittimes.iasishealthcare.com/MEDHOST/MPMC/EdisKpiRssFeedGenerator.aspx",
+            "image": "mpmc",
+            "name": "Mountain Point Medical Center",
+            "info": "3000 N. Triumph Blvd.\nLehi, UT 84043\n(385) 345-3000"
+        },
+        {
+            "url": "http://www.iasishealthcare.com/app/slrmc.html",
+            "checkin": "https://iasis.inquicker.com/facility/salt-lake-regional-medical-center",
+            "er": "https://waittimes.iasishealthcare.com/MEDHOST/SLR/EdisKpiRssFeedGenerator.aspx",
+            "image": "slrmc",
+            "name": "Salt Lake Regional Medical Center",
+            "info": "1050 East South Temple\nSalt Lake City, UT 84102\n(801) 350-4111"
+        }
+    ],
+    "Colorado": [
+        {
+            "url": "http://www.iasishealthcare.com/app/pprh.html",
+            "er": "",
+            "image": "pprh",
+            "name": "Pikes Peak Regional Hospital",
+            "info": "16420 West Highway 24\nWoodland Park, CO 80863\n(719) 687-9999"
+        }
+    ],
+    "Texas": [
+        {
+            "url": "http://www.iasishealthcare.com/app/ormc.html",
+            "checkin": "https://odessa-iasis.inquicker.com/emergency-room",
+            "er": "https://waittimes.iasishealthcare.com/MEDHOST/ORH/EdisKpiRssFeedGenerator.aspx",
+            "image": "ormc",
+            "name": "Odessa Regional Medical Center",
+            "info": "520 East Sixth Street\nOdessa, TX 79761\n(432) 582-8000"
+        },
+        {
+            "url": "http://www.iasishealthcare.com/app/swgh.html",
+            "checkin": "https://iasis.inquicker.com/facility/southwest-general-hospital",
+            "er": "https://waittimes.iasishealthcare.com/MEDHOST/SGH/EdisKpiRssFeedGenerator.aspx",
+            "image": "swgh",
+            "name": "Southwest General Hospital",
+            "info": "7400 Barlite Boulevard\nSan Antonio, TX 78224\n(210) 921-2000"
+        },
+        {
+            "url": "http://www.iasishealthcare.com/app/sjmc.html",
+            "checkin": "https://houston-iasis.inquicker.com/emergency-room",
+            "er": "https://waittimes.iasishealthcare.com/MEDHOST/sjm/EdisKpiRssFeedGenerator.aspx",
+            "image": "sjmc",
+            "name": "St. Joseph Medical Center",
+            "info": "1401 St. Joseph Parkway\nHouston, TX 77002\n(713) 757-1000"
+        },
+        {
+            "url": "http://www.iasishealthcare.com/app/heights.html",
+            "checkin": "https://houston-iasis.inquicker.com/emergency-room",
+            "er": "https://waittimes.iasishealthcare.com/MEDHOST/SJH/EdisKpiRssFeedGenerator.aspx",
+            "image": "heights",
+            "name": "St. Joseph Medical Center in the Heights",
+            "info": "1917 Ashland Street\nHouston, TX 77008\n(713) 969-5400"
+        },
+        {
+            "url": "http://www.iasishealthcare.com/app/mcst.html",
+            "checkin": "https://setexas-iasis.inquicker.com/facility/medical-center-of-southeast-texas",
+            "er": "https://waittimes.iasishealthcare.com/MEDHOST/MCSETX/EdisKpiRssFeedGenerator.a",
+            "image": "mcst",
+            "name": "The Medical Center of Southeast Texas",
+            "info": "2555 Jimmy Johnson Blvd\nPort Arthur, TX 77640\n(409) 724-7389"
+        },
+        {
+            "url": "http://www.iasishealthcare.com/app/wrmc.html",
+            "er": "https://waittimes.iasishealthcare.com/MEDHOST/WRM/EdisKpiRssFeedGenerator.aspx",
+            "image": "wrmc",
+            "name": "Wadley Regional Medical Center",
+            "info": "1000 Pine Street\nTexarkana, TX 75501\n(903) 798-8000"
+        }
+    ],
+    "Louisiana": [
+        {
+            "url": "http://www.iasishealthcare.com/app/grmc.html",
+            "checkin": "https://louisiana-iasis.inquicker.com/emergency-room",
+            "er": "https://waittimes.iasishealthcare.com/MEDHOST/GRM/EdisKpiRssFeedGenerator.aspx",
+            "image": "grmc",
+            "name": "Glenwood Regional Medical Center",
+            "info": "503 McMillan Road\nWest Monroe, LA 71291\n(318) 329-4200"
+        }
+    ],
+    "Arizona": [
+        {
+            "url": "http://www.iasishealthcare.com/app/mvmc.html ",
+            "checkin": "https://arizonaer.inquicker.com/facility/mountain-vista-medical-center",
+            "er": "https://waittimes.iasishealthcare.com/MEDHOST/MVM/EdisKpiRssFeedGenerator.aspx",
+            "image": "mvmc",
+            "name": "Mountain Vista Medical Center",
+            "info": "1301 S. Crismon Road\nMesa, AZ 85209\n(480) 358-6100"
+        },
+        {
+            "url": "http://www.iasishealthcare.com/app/slmc.html",
+            "checkin": "https://arizonaer.inquicker.com/facility/st-lukes-medical-center",
+            "er": "https://waittimes.iasishealthcare.com/MEDHOST/SLPHX/EdisKpiRssFeedGenerator.aspx",
+            "image": "slmc",
+            "name": "St. Luke’s Medical Center",
+            "info": "1800 E. Van Buren Street\nPhoenix, AZ 85006\n(602) 251-8100"
+        },
+        {
+            "url": "http://www.iasishealthcare.com/app/slbh.html ",
+            "er": "",
+            "image": "slbh",
+            "name": "St. Luke’s Behavioral Health",
+            "info": "1800 E. Van Buren Street\nPhoenix, AZ 85006\n(602) 251-8535"
+        },
+        {
+            "url": "http://www.iasishealthcare.com/app/tslh.html ",
+            "checkin": "https://arizonaer.inquicker.com/facility/tempe-st-lukes-hospital",
+            "er": "https://waittimes.iasishealthcare.com/MEDHOST/TSL/EdisKpiRssFeedGenerator.aspx",
+            "image": "tslh",
+            "name": "Tempe St. Luke’s Hospital",
+            "info": "1500 S. Mill Avenue\nTempe, AZ 85281\n(480) 784-5500"
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.iasishealthcare.iasis.customcontrol.CustomFontTextView
+            android:id="@+id/tvWaitTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_gravity="center_horizontal"
+            android:text="It looks like you haven't added any favorite providers yet. Saving providers to your favorites is a great way to access information and schedule appointments with the providers you visit most."
+            android:textColor="@color/Black"
+            />
+
+
+        <com.iasishealthcare.iasis.customcontrol.CustomFontButton
+            android:id="@+id/btnAddProvider"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginBottom="20dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_gravity="center"
+            android:background="@drawable/button_round_color_bg"
+            android:text="Add Favorite Providers"
+            android:textColor="@color/AppColor"/>
+
+    </LinearLayout>
+
+</LinearLayout>

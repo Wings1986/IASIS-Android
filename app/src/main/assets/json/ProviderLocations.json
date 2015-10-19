@@ -1,0 +1,30 @@
+{
+    "Arkansas": [
+        "Hope"
+    ],
+    "Utah": [
+        "Layton",
+        "West Jordan",
+        "West Valley City",
+        "Salt Lake City",
+        "Lehi"
+    ],
+    "Colorado": [
+        "Woodland Park"
+    ],
+    "Texas": [
+        "Odessa",
+        "San Antonio",
+        "Houston",
+        "Port Arthur",
+        "Texarkana"
+    ],
+    "Louisiana": [
+        "West Monroe"
+    ],
+    "Arizona": [
+        "Mesa",
+        "Phoenix",
+        "Tempe"
+    ]
+}

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.iasishealthcare.iasis.customcontrol.CustomFontTextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="User the filters below to find a provider"
+        android:textColor="@color/White"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="#3b8fc7"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="15dp">
+
+        <com.iasishealthcare.iasis.customcontrol.CustomFontButton
+            android:id="@+id/btnState"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_gravity="center"
+            android:background="@drawable/button_round_color_bg"
+            android:drawableRight="@drawable/dropdownarrow"
+            android:text="State"
+            android:gravity="left|center_vertical"
+            android:textColor="@color/AppColor"/>
+
+        <com.iasishealthcare.iasis.customcontrol.CustomFontButton
+            android:id="@+id/btnCity"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:background="@drawable/button_round_color_bg"
+            android:drawableRight="@drawable/dropdownarrow"
+            android:text="City"
+            android:gravity="left|center_vertical"
+            android:textColor="@color/AppColor"/>
+
+        <com.iasishealthcare.iasis.customcontrol.CustomFontButton
+            android:id="@+id/btnSpecialty"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:background="@drawable/button_round_color_bg"
+            android:drawableRight="@drawable/dropdownarrow"
+            android:text="Specialty"
+            android:gravity="left|center_vertical"
+            android:textColor="@color/AppColor"/>
+
+
+        <com.iasishealthcare.iasis.customcontrol.CustomFontEdittext
+            android:id="@+id/etLastName"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_gravity="center"
+            android:background="@drawable/button_round_color_bg"
+            android:gravity="left|center_vertical"
+            android:textColor="@color/AppColor"
+            android:hint="Provider's Last Name..."
+            android:textColorHint="@color/AppColor"
+            android:textSize="14dp"/>
+
+
+        <com.iasishealthcare.iasis.customcontrol.CustomFontButton
+            android:id="@+id/btnSearch"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:background="@drawable/button_search_bg"
+            android:text="Search"
+            android:gravity="center"
+            android:textColor="@color/White"/>
+
+        <com.iasishealthcare.iasis.customcontrol.CustomFontButton
+            android:id="@+id/btnClear"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:background="@drawable/button_clear_bg"
+            android:text="Clear"
+            android:gravity="center"
+            android:textColor="@color/White"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

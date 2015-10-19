@@ -1,0 +1,7 @@
+<resources>
+
+    <string name="app_name">IASIS</string>
+
+    <item type="id" name="myid"></item>
+
+</resources>

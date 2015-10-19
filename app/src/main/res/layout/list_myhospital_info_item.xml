@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:id="@+id/backFrameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@drawable/dhmc"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <com.iasishealthcare.iasis.customcontrol.CustomFontTextView
+            android:id="@+id/lblName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Mountain Vista Medical Center"
+            android:textColor="@color/White"
+            android:layout_marginBottom="8dp"
+            android:textStyle="bold"/>
+
+        <com.iasishealthcare.iasis.customcontrol.CustomFontTextView
+            android:id="@+id/lblAddress1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Mountain Vista Medical Center"
+            android:textColor="@color/White"
+            android:layout_marginBottom="6dp"
+            />
+        <com.iasishealthcare.iasis.customcontrol.CustomFontTextView
+            android:id="@+id/lblAddress2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Mountain Vista Medical Center"
+            android:textColor="@color/White"
+            android:layout_marginBottom="6dp"
+            />
+        <com.iasishealthcare.iasis.customcontrol.CustomFontTextView
+            android:id="@+id/lblPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Mountain Vista Medical Center"
+            android:textColor="@color/White"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

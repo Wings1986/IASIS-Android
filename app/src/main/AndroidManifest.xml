@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.iasishealthcare.iasis" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SET_DEBUG_APP"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:name=".UIApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:largeHeap="true">
+
+        <activity
+            android:name=".activity.SplashActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".activity.HomeActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".activity.HospitalsActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".activity.HospitalInfoActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".activity.ProviderResultActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".activity.AddProviderActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".activity.SettingActivity" android:screenOrientation="portrait"/>
+
+    </application>
+
+</manifest>

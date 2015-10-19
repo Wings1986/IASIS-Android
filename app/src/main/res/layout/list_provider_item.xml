@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/layout_provider_shadow_bg"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/photo"
+            android:layout_width="65dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/providerheadshot"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:paddingLeft="5dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.iasishealthcare.iasis.customcontrol.CustomFontTextView
+                        android:id="@+id/lblName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
+                        android:text="Robert Candipan, MD"
+                        android:textColor="@color/Black"
+                        android:textStyle="bold"
+                        />
+                    <com.iasishealthcare.iasis.customcontrol.CustomFontTextView
+                        android:id="@+id/lblSpecialty"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
+                        android:layout_gravity="center_horizontal"
+                        android:text="Cardiology"
+                        android:textColor="@color/Black"
+                        />
+                </LinearLayout>
+
+                <com.iasishealthcare.iasis.customcontrol.CustomFontButton
+                    android:id="@+id/btnStar"
+                    android:layout_width="13dp"
+                    android:layout_height="12dp"
+                    android:padding="5dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/star_on"
+                    android:visibility="gone"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+
+                <com.iasishealthcare.iasis.customcontrol.CustomFontButton
+                    android:id="@+id/btnSchedule"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/button_round_color_bg"
+                    android:text="Schedule"
+                    android:layout_marginRight="20dp"
+                    android:textColor="@color/AppColor"/>
+
+                <com.iasishealthcare.iasis.customcontrol.CustomFontButton
+                    android:id="@+id/btnDetail"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/button_round_color_bg"
+                    android:text="Detail"
+                    android:textColor="@color/AppColor"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

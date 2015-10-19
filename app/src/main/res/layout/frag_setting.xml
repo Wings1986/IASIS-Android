@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/AppColor"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:src="@drawable/iasis_logo"
+        android:layout_marginTop="50dp"/>
+
+    <com.iasishealthcare.iasis.customcontrol.CustomFontButton
+        android:id="@+id/btnMyLocation"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Set My Location"
+        android:textColor="@color/White"
+        android:background="@drawable/button_round_bg"/>
+
+    <com.iasishealthcare.iasis.customcontrol.CustomFontButton
+        android:id="@+id/btnMyHospital"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Set My Hospital"
+        android:textColor="@color/White"
+        android:background="@drawable/button_round_bg"/>
+
+    <com.iasishealthcare.iasis.customcontrol.CustomFontButton
+        android:id="@+id/btnClose"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Close"
+        android:textColor="@color/White"
+        android:background="@android:color/transparent"/>
+
+</LinearLayout>
